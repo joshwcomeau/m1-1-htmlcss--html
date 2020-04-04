@@ -2,7 +2,7 @@
 
 Before you dive into the workshop, be sure to have read the provided HTML-reference doc.
 
-When creating HTML files, be sure to use proper formating. Here is a basic template.
+When creating HTML files, be sure to use proper formatting. Here is a basic template.
 
 _Don't worry about styling and alignment at this point, we'll worry about that when we add CSS._
 

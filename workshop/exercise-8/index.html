@@ -1,1 +1,65 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>AR-Exercise 8</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        fieldset{
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+   <fieldset>
+    <legend><h1>Registration form</h1></legend>
+     <form>
+        <div> 
+            <label>Username</label>
+            <input type='text' required>
+            <label>password</label>
+            <input type='password' required>
+        </div>
+        <div>
+            <label>email</label>
+            <input type='email' required>
+         </div>
+        <div>
+            <label>Which taxi do you require?</label><br>    
+            <input type='radio' id='car' name='vehicle' value='car' required>
+            <label for='car'>Car</label><br>
+            <input type='radio' id='van' name='vehicle' value='van'>
+            <label for='van'>Van</label><br>
+            <input type='radio' id='tuktuk' name='vehicle' value='tuk tuk'>
+            <label for='tuktuk'>Tuk Tuk</label><br>
+        </div>
+        <div>
+            <label>Extras</label><br>
+            <input type='checkbox' id='babySeat' name='extras' value='baby Seat'>
+            <label for='babySeat'>Baby Seat</label><br>
+            <input type='checkbox' id='wheelchairAccess' name='extras' value='Wheelchair Access'>
+            <label for='wheelchairAccess'>Wheelchair Access</label><br>
+            <input type='checkbox' id='stockTip' name='extras' value='Stock Tip'>
+            <label for='stockTip'>Stock Tip</label><br>
+        </div>
+        <div>
+            <label>Pickup</label>
+            <select id="pickup" name="pickup" required>
+                <option value="">Select One</option>
+                <option value="Taxi Office">Taxi Office</option>
+                <option value="Town Hall">Town Hall</option>
+                <option value="We'll Guess!">We'll Guess!</option>
+              </select>
+        </div>
+        <div>
+            <label>Special</label>
+            <textarea></textarea>
+        </div>
+        <input type="submit" value='Submit'>
+
+     </form>
+   </fieldset>
+</body>
+</html>
